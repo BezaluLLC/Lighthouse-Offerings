@@ -6,21 +6,26 @@
             "type": "string",
             "metadata": {
                 "description": "Specify a unique name for your offer"
-            },
-            "defaultValue": "Bezalu-Managed Cloud Services"
+            }
         },
         "mspOfferDescription": {
             "type": "string",
             "metadata": {
                 "description": "Name of the Managed Service Provider offering"
             },
-            "defaultValue": "This offering represents an ongoing engagement with Bezalu LLC to manage and monitor your cloud resources"
+            "defaultValue": "This offering represents an ongoing engagement to manage and monitor your cloud resources"
+        },
+        "mspTenantId": {
+            "type": "string",
+            "metadata": {
+                "description": "Tenand ID of the managing partner"
+            }
         }
     },
     "variables": {
         "mspRegistrationName": "[guid(parameters('mspOfferName'))]",
         "mspAssignmentName": "[guid(parameters('mspOfferName'))]",
-        "managedByTenantId": "b6e75610-9c5f-4a42-85a6-6f3738f10d03",
+        "managedByTenantId": "[guid(parameters('mspTenantId'))]",
         "authorizations": [
             {
                 "principalId": "657bfadc-916c-4688-be25-567a3bc009af",
