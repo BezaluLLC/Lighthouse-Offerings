@@ -1,4 +1,4 @@
-# Lighthouse-Offerings
+# Bezalu's Azure Lighthouse Offerings
 Offering templates for Azure Lighthouse Delegated Administration
 
 ## Templates
