@@ -5,6 +5,15 @@ Templates are constructed so that you can use the deployment buttons directly fr
 
 ## Instructions
 
+### Forking
+
+1. Fork this repository
+2. Edit the "Deploy to Azure" button to be the raw content URL for your repo's template file
+3. Edit the template to have your group IDs
+4. Optionally replace the role IDs with your own preferred selection
+
+### Usage
+
 1. Open a browser window (typically in-private/incognito for MSP technicians)
 2. Paste the button (or repository) link into the address bar and launch
 3. Configure the template parameters to match your business branding  
