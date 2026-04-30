@@ -38,6 +38,11 @@
                 "principalIdDisplayName": "AZLH - Architects"
             },
             {
+                "principalId": "7edba0ab-5c34-4f42-bbeb-a2bfd4b47119",
+                "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
+                "principalIdDisplayName": "AZLH - Architects"
+            },
+            {
                 "principalId": "40afc22f-547e-482d-b66e-abd6da405732",
                 "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
                 "principalIdDisplayName": "AZLH - VM Specialists"
