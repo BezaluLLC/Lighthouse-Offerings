@@ -25,7 +25,6 @@
     "variables": {
         "mspRegistrationName": "[guid(parameters('mspOfferName'))]",
         "mspAssignmentName": "[guid(parameters('mspOfferName'))]",
-        "managedByTenantId": "[guid(parameters('mspTenantId'))]",
         "authorizations": [
             {
                 "principalId": "657bfadc-916c-4688-be25-567a3bc009af",
@@ -79,7 +78,7 @@
             "properties": {
                 "registrationDefinitionName": "[parameters('mspOfferName')]",
                 "description": "[parameters('mspOfferDescription')]",
-                "managedByTenantId": "[variables('managedByTenantId')]",
+                "managedByTenantId": "[parameters('mspTenantId')]",
                 "authorizations": "[variables('authorizations')]",
                 "eligibleAuthorizations": "[variables('eligibleAuthorizations')]"
             }
