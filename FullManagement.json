@@ -6,7 +6,8 @@
             "type": "string",
             "metadata": {
                 "description": "Specify a unique name for your offer"
-            }
+            },
+            "defaultValue": "Bezalu"
         },
         "mspOfferDescription": {
             "type": "string",
@@ -19,7 +20,8 @@
             "type": "string",
             "metadata": {
                 "description": "Tenand ID of the managing partner"
-            }
+            },
+            "defaultValue": "b6e75610-9c5f-4a42-85a6-6f3738f10d03"
         }
     },
     "variables": {
